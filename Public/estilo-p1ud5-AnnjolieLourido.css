@@ -30,38 +30,35 @@ button:hover {
     font-size: 30px;
 }
 
-.ocultar {
-    display: none;
-}
-
-.titulo {
+#titulo {
     text-align: center;
     font-size: 80px;
-    background: url(imagenes/urdaibai-1920x1440-300ppp.jpg);
+    background-image: url(urdaibai1-1920x1440-300ppp.jpg);
     width: 1920px;
     height: 1440px;
 }
-#urdabai{
+
+#urdabai {
     text-decoration: none;
+    margin-top: 50%;
     color: tomato;
 }
 
-table{
+table {
     border-collapse: collapse;
-width: 60%;
+    width: 60%;
     margin: auto;
     color: tomato;
     border-color: black;
 }
 
-table th{
+table th {
     padding: 10px;
     margin-right: 10px;
     color: tomato;
     font-size: 15.5px;
 }
 
-table td{
+table td {
     text-align: center;
 }
-
