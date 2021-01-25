@@ -1,0 +1,67 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    font-family: "Oswald", sans-serif;
+}
+
+span {
+    color: tomato;
+}
+
+button {
+    border-color: black;
+    background-color: black;
+    padding: 10px;
+    margin-right: 10px;
+    color: tomato;
+    font-size: 15.5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.tamaño {
+    font-size: 30px;
+}
+
+.ocultar {
+    display: none;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 80px;
+    background: url(imagenes/urdaibai-1920x1440-300ppp.jpg);
+    width: 1920px;
+    height: 1440px;
+}
+#urdabai{
+    text-decoration: none;
+    color: tomato;
+}
+
+table{
+    border-collapse: collapse;
+width: 60%;
+    margin: auto;
+    color: tomato;
+    border-color: black;
+}
+
+table th{
+    padding: 10px;
+    margin-right: 10px;
+    color: tomato;
+    font-size: 15.5px;
+}
+
+table td{
+    text-align: center;
+}
+
