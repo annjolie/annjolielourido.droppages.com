@@ -7,7 +7,7 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, user-scalable=no">
         <title>Practica 1 unidad 6</title>
-        <link rel="stylesheet" type="text/css" href="../Public/estilo-p2ud5-AnnjolieLourido.css">
+        <link rel="stylesheet" type="text/css" href="../Public/prueba.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Oswald&display=swap" rel="stylesheet">
         <script src="../Public/jquery.js"></script>
@@ -32,14 +32,16 @@
                     <button class="botonMenu">Actividad 2</button>
                     <button class="botonMenu">Actividad 3</button>
                     <button class="botonMenu">Actividad 4</button>
-                    <button class="botonMenu">Actividad 5</button>
                 </nav>
             </section>
-            <article id="actividad4">
-                <h2>Actividad 4</h2>
-                <p>Busca en Internet un archivo de video sobre animaciones, con una duración aproximada  de 1 minuto, que tenga exactamente 
-                la licencia indicada (una de las dos) en la segunda columna de la siguiente tabla y descárgalo. Rellena la tabla con el resto 
-                de los datos: el título del álbum y el título del archivo de sonido, su autor y la dirección completa desde donde lo has descargado (su URL).</p>
+            <article id="actividad1">
+                <h2>Actividad 1</h2>
+                <p>Busca en Internet un archivo de video sobre animaciones, con una duración 
+                                        aproximada  de 1 minuto, que tenga exactamente la licencia indicada (una de las dos) 
+                                        en la segunda columna de la siguiente tabla y descárgalo. Rellena la tabla con el 
+                                        resto de los datos: el título del álbum y el título del archivo de sonido, su autor y 
+                                        la dirección completa desde donde lo has descargado (su URL).
+                </p>
 
                 <h3>Licencias de archivos de video</h3>
 
@@ -78,7 +80,7 @@
                     </tr>
                     <tr>
                         <th>1</th>
-                        <td>0:1:13</td>
+                        <td>00:01:13</td>
                         <td>AVC</td>
                         <td>avc1</td>
                         <td>9,323MB</td>
@@ -91,9 +93,8 @@
             <article id="actividad3">
                 <h2>Actividad 3</h2>
                 <p>Transforma el vídeo a un formato diferente pero que pese menos, indica en la tabla siguiente los nuevos valores. 
-                                        Indica el software o la página web empleada.</p>
+                                                            Indica el software o la página web empleada.</p>
                 <h3>Propiedades de los archivos de video</h3>
-
                 <table>
                     <tr>
                         <th scope="col">Nº</th>
@@ -107,7 +108,7 @@
                     </tr>
                     <tr>
                         <th>1</th>
-                        <td>0:0:25</td>
+                        <td>00:00:25</td>
                         <td>MPEG-4</td>
                         <td>avc1</td>
                         <td>329kb</td>
@@ -121,10 +122,25 @@
                 <h2>Actividad 4</h2>
                 <ul>
                     <li>Añade al vídeo una pista de audio libre, usa una de las que te proporciona youtube.</li>
-                    <li> vídeo de la actividad anterior, añade los subtítulos en castellano, gallego, portugués
-                    inglés y francés en el que se describa que es lo que pasa en el vídeo durante por lo menos 45 segundos. Usa el formato vtt.</li>
+                    <li>
+                        vídeo de la actividad anterior, añade los subtítulos en castellano, gallego, portugués
+                                            inglés y francés en el que se describa que es lo que pasa en el vídeo durante por lo menos 45 segundos. Usa el formato vtt.</li>
+                    <li>Añade una imagen de portada.</li>
+                    <li>Añádelo a la página web (que crearás en la siguiente actividad) de dos formas:</li>
+                    <ul>
+                        <li>Usando las etiquetas de vídeo < source > (1º descargará el generado en la actividad 4, 
+                                                            de no soportarlo descargará el original) y la etiqueta < track >.
+                        </li>
+                        <li>Incrustando el vídeo directamente desde youtube con un < iframe >. 
+                                                            Tamaño del marco 400x200. Los subtítulos en este caso estarán directamente en youtube. 
+                                                            Haz que se reproduzca de forma automática y en bucle.
+                        </li>
+                    </ul>
+                    <li>Si se trata de un navegador de terminal de texto (o sin capacidades gráficas), mostrará el texto "Su navegador no soporta contenido multimedia".</li>
+                    <li>Se debe permitir que el usuario pueda descargar el vídeo desde un enlace (puede ser una imagen, la de la portada) y que el nombre del video sea “miVideoNombreAlu</li>
                 </ul>
             </article>
+           
         </main>
     </body>
 </html>
